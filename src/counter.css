@@ -1,0 +1,35 @@
+*{
+    background-color: #38b4d3;
+    margin: 0;
+    text-align: center;
+
+   
+}
+h1{
+    color: rgb(149, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.container{
+   color:#ed3b28;
+}
+
+button{
+    width:200px;
+    height:60px;
+    background-color: rgb(24, 24, 26);
+    cursor: pointer;
+    color:white;
+    font-size: 1.5rem;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
